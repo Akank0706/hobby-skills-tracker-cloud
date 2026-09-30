@@ -1,0 +1,508 @@
+{
+  "users": {
+    "usr_alex_001": {
+      "user_id": "usr_alex_001",
+      "name": "Alex Rivera",
+      "username": "alex_r",
+      "email": "alex@example.com",
+      "password_hash": "password123",
+      "profile_picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop",
+      "bio": "Cloud computing student passionate about acoustic guitar and landscape photography.",
+      "interests": [
+        "Photography",
+        "Guitar",
+        "Cloud Computing"
+      ],
+      "created_at": "2026-09-10"
+    },
+    "usr_sam_002": {
+      "user_id": "usr_sam_002",
+      "name": "Sam Chen",
+      "username": "sam_dev",
+      "email": "sam@example.com",
+      "password_hash": "password123",
+      "profile_picture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop",
+      "bio": "Software enthusiast learning UI/UX design, Rust, and oil painting.",
+      "interests": [
+        "Coding",
+        "Art",
+        "Fitness"
+      ],
+      "created_at": "2026-09-15"
+    },
+    "usr_1790783202099_l1kvi": {
+      "user_id": "usr_1790783202099_l1kvi",
+      "name": "Test Engineer",
+      "username": "user_1790783202099",
+      "email": "test_1790783202099@example.com",
+      "password_hash": "secret123",
+      "profile_picture": "https://api.dicebear.com/7.x/identicon/svg?seed=user_1790783202099",
+      "bio": "New learner tracking skills on the cloud.",
+      "interests": [],
+      "created_at": "2026-09-30T15:46:42.099Z"
+    },
+    "usr_1790783262700_l7fcf": {
+      "user_id": "usr_1790783262700_l7fcf",
+      "name": "Test Engineer",
+      "username": "user_1790783262699",
+      "email": "test_1790783262699@example.com",
+      "password_hash": "secret123",
+      "profile_picture": "https://api.dicebear.com/7.x/identicon/svg?seed=user_1790783262699",
+      "bio": "New learner tracking skills on the cloud.",
+      "interests": [],
+      "created_at": "2026-09-30T15:47:42.700Z"
+    }
+  },
+  "skills": {
+    "sk_guitar_01": {
+      "skill_id": "sk_guitar_01",
+      "user_id": "usr_alex_001",
+      "skill_name": "Guitar",
+      "category": "Music",
+      "current_level": "BEGINNER",
+      "target_level": "INTERMEDIATE",
+      "start_date": "2026-09-16",
+      "target_date": "2026-11-29",
+      "status": "ACTIVE",
+      "description": "Mastering chord transitions, fingerpicking patterns, and acoustic rhythm.",
+      "created_at": "2026-09-16"
+    },
+    "sk_photo_02": {
+      "skill_id": "sk_photo_02",
+      "user_id": "usr_alex_001",
+      "skill_name": "Photography",
+      "category": "Photography",
+      "current_level": "BEGINNER",
+      "target_level": "ADVANCED",
+      "start_date": "2026-09-10",
+      "target_date": "2026-12-29",
+      "status": "ACTIVE",
+      "description": "Understanding manual exposure, portrait lighting, and RAW post-processing.",
+      "created_at": "2026-09-10"
+    },
+    "sk_coding_01": {
+      "skill_id": "usr_sam_002",
+      "user_id": "usr_sam_002",
+      "skill_name": "Coding",
+      "category": "Coding",
+      "current_level": "INTERMEDIATE",
+      "target_level": "ADVANCED",
+      "start_date": "2026-09-15",
+      "target_date": "2026-11-14",
+      "status": "ACTIVE",
+      "description": "Building distributed cloud applications and learning system design.",
+      "created_at": "2026-09-15"
+    },
+    "sk_1790783202100_ud8n": {
+      "user_id": "usr_test_999",
+      "skill_name": "Python Robotics",
+      "category": "Coding",
+      "current_level": "BEGINNER",
+      "target_level": "ADVANCED",
+      "start_date": "2026-09-01",
+      "target_date": "2026-12-01",
+      "status": "ACTIVE",
+      "description": "Autonomous ROS2 control",
+      "skill_id": "sk_1790783202100_ud8n",
+      "created_at": "2026-09-30T15:46:42.100Z"
+    },
+    "sk_1790783202103_x72a": {
+      "user_id": "usr_streak_test",
+      "skill_name": "Guitar Test",
+      "category": "Music",
+      "current_level": "BEGINNER",
+      "target_level": "INTERMEDIATE",
+      "start_date": "2026-09-20",
+      "target_date": "",
+      "status": "ACTIVE",
+      "description": "Testing streak",
+      "skill_id": "sk_1790783202103_x72a",
+      "created_at": "2026-09-30T15:46:42.103Z"
+    },
+    "sk_1790783262701_mipj": {
+      "user_id": "usr_test_999",
+      "skill_name": "Python Robotics",
+      "category": "Coding",
+      "current_level": "BEGINNER",
+      "target_level": "ADVANCED",
+      "start_date": "2026-09-01",
+      "target_date": "2026-12-01",
+      "status": "ACTIVE",
+      "description": "Autonomous ROS2 control",
+      "skill_id": "sk_1790783262701_mipj",
+      "created_at": "2026-09-30T15:47:42.701Z"
+    },
+    "sk_1790783262703_v7no": {
+      "user_id": "usr_streak_test",
+      "skill_name": "Guitar Test",
+      "category": "Music",
+      "current_level": "BEGINNER",
+      "target_level": "INTERMEDIATE",
+      "start_date": "2026-09-20",
+      "target_date": "",
+      "status": "ACTIVE",
+      "description": "Testing streak",
+      "skill_id": "sk_1790783262703_v7no",
+      "created_at": "2026-09-30T15:47:42.703Z"
+    }
+  },
+  "goals": {
+    "gl_guitar_30h": {
+      "goal_id": "gl_guitar_30h",
+      "user_id": "usr_alex_001",
+      "skill_id": "sk_guitar_01",
+      "title": "Practice 30 hours",
+      "target_value": 30,
+      "current_value": 18,
+      "unit": "hours",
+      "deadline": "2026-10-30",
+      "status": "IN_PROGRESS",
+      "created_at": "2026-09-16"
+    },
+    "gl_1790783202101_6i2j": {
+      "goal_id": "gl_1790783202101_6i2j",
+      "user_id": "usr_test_999",
+      "skill_id": "sk_1790783202100_ud8n",
+      "title": "Practice 20 hours",
+      "target_value": 20,
+      "current_value": 10,
+      "unit": "hours",
+      "status": "IN_PROGRESS",
+      "created_at": "2026-09-30T15:46:42.101Z"
+    },
+    "gl_1790783262702_56vj": {
+      "goal_id": "gl_1790783262702_56vj",
+      "user_id": "usr_test_999",
+      "skill_id": "sk_1790783262701_mipj",
+      "title": "Practice 20 hours",
+      "target_value": 20,
+      "current_value": 10,
+      "unit": "hours",
+      "deadline": "2026-12-31",
+      "status": "IN_PROGRESS",
+      "created_at": "2026-09-30T15:47:42.702Z"
+    }
+  },
+  "milestones": {
+    "ms_5h": {
+      "milestone_id": "ms_5h",
+      "goal_id": "gl_guitar_30h",
+      "title": "5 Hours Practiced",
+      "target_value": 5,
+      "achieved": true,
+      "achieved_at": "2026-09-20"
+    },
+    "ms_10h": {
+      "milestone_id": "ms_10h",
+      "goal_id": "gl_guitar_30h",
+      "title": "10 Hours Practiced",
+      "target_value": 10,
+      "achieved": true,
+      "achieved_at": "2026-09-25"
+    },
+    "ms_20h": {
+      "milestone_id": "ms_20h",
+      "goal_id": "gl_guitar_30h",
+      "title": "20 Hours Practiced",
+      "target_value": 20,
+      "achieved": false
+    },
+    "ms_30h": {
+      "milestone_id": "ms_30h",
+      "goal_id": "gl_guitar_30h",
+      "title": "30 Hours Practiced",
+      "target_value": 30,
+      "achieved": false
+    },
+    "ms_1790783202101_n27m": {
+      "milestone_id": "ms_1790783202101_n27m",
+      "goal_id": "gl_1790783202101_6i2j",
+      "title": "5 hours Milestone",
+      "target_value": 5,
+      "achieved": true,
+      "achieved_at": "2026-09-30T15:46:42.102Z"
+    },
+    "ms_1790783202101_o0d7": {
+      "milestone_id": "ms_1790783202101_o0d7",
+      "goal_id": "gl_1790783202101_6i2j",
+      "title": "10 hours Milestone",
+      "target_value": 10,
+      "achieved": true,
+      "achieved_at": "2026-09-30T15:46:42.102Z"
+    },
+    "ms_1790783202101_1ps2": {
+      "milestone_id": "ms_1790783202101_1ps2",
+      "goal_id": "gl_1790783202101_6i2j",
+      "title": "20 hours Milestone",
+      "target_value": 20,
+      "achieved": false
+    },
+    "ms_1790783262702_c87m": {
+      "milestone_id": "ms_1790783262702_c87m",
+      "goal_id": "gl_1790783262702_56vj",
+      "title": "5 hours Milestone",
+      "target_value": 5,
+      "achieved": true,
+      "achieved_at": "2026-09-30T15:47:42.702Z"
+    },
+    "ms_1790783262702_12y9": {
+      "milestone_id": "ms_1790783262702_12y9",
+      "goal_id": "gl_1790783262702_56vj",
+      "title": "10 hours Milestone",
+      "target_value": 10,
+      "achieved": true,
+      "achieved_at": "2026-09-30T15:47:42.702Z"
+    },
+    "ms_1790783262702_ks7q": {
+      "milestone_id": "ms_1790783262702_ks7q",
+      "goal_id": "gl_1790783262702_56vj",
+      "title": "20 hours Milestone",
+      "target_value": 20,
+      "achieved": false
+    }
+  },
+  "practice_sessions": {
+    "ps_1": {
+      "session_id": "ps_1",
+      "user_id": "usr_alex_001",
+      "skill_id": "sk_guitar_01",
+      "skill_name": "Guitar",
+      "duration_minutes": 120,
+      "activity": "Chord transitions (C, G, Em, D)",
+      "notes": "Focus session recorded on 2026-09-27",
+      "practiced_at": "2026-09-27",
+      "created_at": "2026-09-27T10:00:00.000Z"
+    },
+    "ps_2": {
+      "session_id": "ps_2",
+      "user_id": "usr_alex_001",
+      "skill_id": "sk_guitar_01",
+      "skill_name": "Guitar",
+      "duration_minutes": 180,
+      "activity": "Fingerpicking arpeggios & metronome practice",
+      "notes": "Focus session recorded on 2026-09-28",
+      "practiced_at": "2026-09-28",
+      "created_at": "2026-09-28T10:00:00.000Z"
+    },
+    "ps_3": {
+      "session_id": "ps_3",
+      "user_id": "usr_alex_001",
+      "skill_id": "sk_photo_02",
+      "skill_name": "Photography",
+      "duration_minutes": 90,
+      "activity": "Natural light portrait composition in park",
+      "notes": "Focus session recorded on 2026-09-29",
+      "practiced_at": "2026-09-29",
+      "created_at": "2026-09-29T10:00:00.000Z"
+    },
+    "ps_4": {
+      "session_id": "ps_4",
+      "user_id": "usr_alex_001",
+      "skill_id": "sk_guitar_01",
+      "skill_name": "Guitar",
+      "duration_minutes": 60,
+      "activity": "Barre chord exercises and barre endurance",
+      "notes": "Focus session recorded on 2026-09-30",
+      "practiced_at": "2026-09-30",
+      "created_at": "2026-09-30T10:00:00.000Z"
+    },
+    "ps_5": {
+      "session_id": "ps_5",
+      "user_id": "usr_alex_001",
+      "skill_id": "sk_guitar_01",
+      "skill_name": "Guitar",
+      "duration_minutes": 360,
+      "activity": "Acoustic tabs & rhythm practice",
+      "notes": "Focus session recorded on 2026-09-23",
+      "practiced_at": "2026-09-23",
+      "created_at": "2026-09-23T10:00:00.000Z"
+    },
+    "ps_6": {
+      "session_id": "ps_6",
+      "user_id": "usr_alex_001",
+      "skill_id": "sk_guitar_01",
+      "skill_name": "Guitar",
+      "duration_minutes": 270,
+      "activity": "Song accompaniment practice",
+      "notes": "Focus session recorded on 2026-09-22",
+      "practiced_at": "2026-09-22",
+      "created_at": "2026-09-22T10:00:00.000Z"
+    },
+    "ps_1790783202101_8ecv": {
+      "session_id": "ps_1790783202101_8ecv",
+      "user_id": "usr_test_999",
+      "skill_id": "sk_1790783202100_ud8n",
+      "skill_name": "Python Robotics",
+      "duration_minutes": 600,
+      "activity": "ROS2 navigation and path planning",
+      "notes": "",
+      "practiced_at": "2026-09-30",
+      "created_at": "2026-09-30T15:46:42.102Z"
+    },
+    "ps_1790783202103_k5f8": {
+      "session_id": "ps_1790783202103_k5f8",
+      "user_id": "usr_streak_test",
+      "skill_id": "sk_1790783202103_x72a",
+      "skill_name": "Guitar Test",
+      "duration_minutes": 30,
+      "activity": "Session 1",
+      "notes": "",
+      "practiced_at": "2026-09-28",
+      "created_at": "2026-09-30T15:46:42.103Z"
+    },
+    "ps_1790783202103_o2kg": {
+      "session_id": "ps_1790783202103_o2kg",
+      "user_id": "usr_streak_test",
+      "skill_id": "sk_1790783202103_x72a",
+      "skill_name": "Guitar Test",
+      "duration_minutes": 30,
+      "activity": "Session 2",
+      "notes": "",
+      "practiced_at": "2026-09-29",
+      "created_at": "2026-09-30T15:46:42.103Z"
+    },
+    "ps_1790783202103_9gy8": {
+      "session_id": "ps_1790783202103_9gy8",
+      "user_id": "usr_streak_test",
+      "skill_id": "sk_1790783202103_x72a",
+      "skill_name": "Guitar Test",
+      "duration_minutes": 30,
+      "activity": "Session 3",
+      "notes": "",
+      "practiced_at": "2026-09-30",
+      "created_at": "2026-09-30T15:46:42.103Z"
+    },
+    "ps_1790783202103_hhl6": {
+      "session_id": "ps_1790783202103_hhl6",
+      "user_id": "usr_streak_test",
+      "skill_id": "sk_1790783202103_x72a",
+      "skill_name": "Guitar Test",
+      "duration_minutes": 45,
+      "activity": "Session 4 (Same day)",
+      "notes": "",
+      "practiced_at": "2026-09-30",
+      "created_at": "2026-09-30T15:46:42.103Z"
+    },
+    "ps_1790783262702_j93o": {
+      "session_id": "ps_1790783262702_j93o",
+      "user_id": "usr_test_999",
+      "skill_id": "sk_1790783262701_mipj",
+      "skill_name": "Python Robotics",
+      "duration_minutes": 600,
+      "activity": "ROS2 navigation and path planning",
+      "notes": "",
+      "practiced_at": "2026-09-30",
+      "created_at": "2026-09-30T15:47:42.702Z"
+    },
+    "ps_1790783262703_f1en": {
+      "session_id": "ps_1790783262703_f1en",
+      "user_id": "usr_streak_test",
+      "skill_id": "sk_1790783262703_v7no",
+      "skill_name": "Guitar Test",
+      "duration_minutes": 30,
+      "activity": "Session 1",
+      "notes": "",
+      "practiced_at": "2026-09-28",
+      "created_at": "2026-09-30T15:47:42.703Z"
+    },
+    "ps_1790783262704_ffnj": {
+      "session_id": "ps_1790783262704_ffnj",
+      "user_id": "usr_streak_test",
+      "skill_id": "sk_1790783262703_v7no",
+      "skill_name": "Guitar Test",
+      "duration_minutes": 30,
+      "activity": "Session 2",
+      "notes": "",
+      "practiced_at": "2026-09-29",
+      "created_at": "2026-09-30T15:47:42.704Z"
+    },
+    "ps_1790783262704_pip9": {
+      "session_id": "ps_1790783262704_pip9",
+      "user_id": "usr_streak_test",
+      "skill_id": "sk_1790783262703_v7no",
+      "skill_name": "Guitar Test",
+      "duration_minutes": 30,
+      "activity": "Session 3",
+      "notes": "",
+      "practiced_at": "2026-09-30",
+      "created_at": "2026-09-30T15:47:42.704Z"
+    },
+    "ps_1790783262704_s1x9": {
+      "session_id": "ps_1790783262704_s1x9",
+      "user_id": "usr_streak_test",
+      "skill_id": "sk_1790783262703_v7no",
+      "skill_name": "Guitar Test",
+      "duration_minutes": 45,
+      "activity": "Session 4 (Same day)",
+      "notes": "",
+      "practiced_at": "2026-09-30",
+      "created_at": "2026-09-30T15:47:42.704Z"
+    }
+  },
+  "posts": {
+    "pst_alex_001": {
+      "post_id": "pst_alex_001",
+      "user_id": "usr_alex_001",
+      "author_name": "Alex Rivera",
+      "author_username": "alex_r",
+      "author_avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop",
+      "skill_id": "sk_guitar_01",
+      "skill_name": "Guitar",
+      "content": "Completed 18 hours of acoustic guitar practice! Finally nailed clean barre chords after consistent daily sessions.",
+      "media_url": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=800&auto=format&fit=crop",
+      "milestone": "10 Hours Practiced Milestone Passed",
+      "likes_count": 1,
+      "comments_count": 1,
+      "created_at": "2026-09-29T14:30:00.000Z"
+    },
+    "pst_1790783202104_8sg0r": {
+      "post_id": "pst_1790783202104_8sg0r",
+      "user_id": "usr_alex_001",
+      "author_name": "Alex Rivera",
+      "author_username": "alex_r",
+      "author_avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop",
+      "content": "Milestone achieved in guitar!",
+      "milestone": "5 Hours Practiced",
+      "likes_count": 1,
+      "comments_count": 0,
+      "created_at": "2026-09-30T15:46:42.104Z",
+      "is_liked_by_me": false
+    },
+    "pst_1790783262705_be7c8": {
+      "post_id": "pst_1790783262705_be7c8",
+      "user_id": "usr_alex_001",
+      "author_name": "Alex Rivera",
+      "author_username": "alex_r",
+      "author_avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop",
+      "content": "Milestone achieved in guitar!",
+      "milestone": "5 Hours Practiced",
+      "likes_count": 1,
+      "comments_count": 0,
+      "created_at": "2026-09-30T15:47:42.705Z",
+      "is_liked_by_me": false
+    }
+  },
+  "likes": {
+    "pst_alex_001": {
+      "usr_sam_002": "2026-09-29T15:00:00.000Z"
+    },
+    "pst_1790783202104_8sg0r": {
+      "usr_sam_002": "2026-09-30T15:46:42.105Z"
+    },
+    "pst_1790783262705_be7c8": {
+      "usr_sam_002": "2026-09-30T15:47:42.705Z"
+    }
+  },
+  "comments": {
+    "cm_sam_001": {
+      "comment_id": "cm_sam_001",
+      "post_id": "pst_alex_001",
+      "user_id": "usr_sam_002",
+      "author_name": "Sam Chen",
+      "author_username": "sam_dev",
+      "author_avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop",
+      "text": "Great work Alex! Clean barre chords take real finger endurance.",
+      "created_at": "2026-09-29T15:05:00.000Z"
+    }
+  }
+}

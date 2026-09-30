@@ -1,0 +1,6 @@
+{
+  "name": "Online Hobby & Skills Tracker with Community Sharing on Cloud",
+  "description": "A cloud-backed hobby & skills tracker where users log practice sessions, track streaks & progress, earn badges, and share updates with a community feed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
